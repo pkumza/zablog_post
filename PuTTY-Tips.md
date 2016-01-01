@@ -1,7 +1,8 @@
 title: PuTTY的一些Tips
 description: 
-categories: 随笔
+categories: 个人随笔
 tags: [PuTTY]
+description: 这一篇只是一个小Tip。在做Project的时候经常用 Ctrl + S 保存，但是PuTTY里按下这个立刻就卡死了。当遇到这种情况的时候应该怎么解决呢？
 date: 2015-07-19 01:23:45
 ---
 首先是Ctrl+s

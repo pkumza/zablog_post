@@ -1,14 +1,14 @@
 title: C++各类size极值基础定义
 date: 2015-11-5 14:44:52
 categories: ['技术指南']
-description: Base Definition for C++
+description: 在C\C++的代码中，经常看到一些预定义的值，比如INT_MAX、LONG_MAX、UINT64_MAX等等，这些值是什么？又是在哪里定义的呢？这篇文章会深入源文件，直接去探究它的定义。
 tags: [C++]
 ---
 
 最近在刷Leetcode的一些题的时候，发现经常会使用到最大值。在以前的学习过程中，只会知道java是有Integer.MAX_VALUE这样一个值，而且是在语言里定义的，java.lang.Integer.MAX_VALUE = 0x7FFFFFFF，那么在C++里怎么用才算方便呢？用 (1<<31)-1 会觉得比较奇怪，在代码中出现0x7FFFFFFF也是超级奇怪。那么这些值都是在哪些地方定义的呢？
 在别人的代码中，见到了INT_MAX，那么这个值在哪里呢？
 Xcode告诉我这个值在limits.h中
-老版本的limit.h可能还会有
+老版本的limit.h可能还会有NC++
 
 ```cpp
 #define INT_MAX   2147483647

@@ -1,7 +1,7 @@
 title: System Level I/O 系统级输入输出
 date: 2015-11-25 14:44:52
 categories: ['学习笔记']
-description: System Level I/O
+description: I/O (输入/输出) 是主存和外部设备（包括磁盘驱动、终端、网络以及其他设备）之间传递数据的过程。 平时我们在高层及语言中使用的诸如printf、System.out.println都是对系统级I/O的封装。对于I/O，不同的系统有不同的实现，那么对于Unix来说，系统级I/O是什么样子呢？
 tags: [ICS, Unix]
 ---
 

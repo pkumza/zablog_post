@@ -1,10 +1,12 @@
-title: '[Android Cocos2dx搭建]Mac电脑OS X下搭建Cocos2d-x 3.2的Android环境2014年8月最新版本'
+title: 'OS X下搭建Cocos2d-x 3.2的Android环境'
 date: 2014-08-26 12:16:52
-categories: 学习笔记
+categories: 技术指南
 description: 在Mac电脑中，搭建Xcode、Cocos2dx、Android的开发环境，2014年8月最新版。
 tags: [OS X, Cocos2dx, Xcode, Android]
 ---
-##下载Cocos2d-x
+
+## 下载Cocos2d-x
+
 下载地址
 [http://cn.cocos2d-x.org/download/](http://cn.cocos2d-x.org/download/)
 当前最新版本是v3.2
@@ -15,12 +17,15 @@ tags: [OS X, Cocos2dx, Xcode, Android]
 
 <!--more-->
 
-##下载SDK
+## 下载SDK
+
 建议到Android官方地址下载ADT Bundle for Mac，这样就省去下载Eclipse和配置SDK的时间了。
 下载地址[http://developer.android.com/sdk/index.html](http://developer.android.com/sdk/index.html)
 我下载的内容是adt-bundle-mac-x86_64-20140702.zip
 下载地址是[http://dl.google.com/android/adt/adt-bundle-mac-x86_64-20140702.zip](http://dl.google.com/android/adt/adt-bundle-mac-x86_64-20140702.zip)
-##下载NDK
+
+## 下载NDK
+
 下载地址是[http://developer.android.com/tools/sdk/ndk/index.html](http://developer.android.com/tools/sdk/ndk/index.html)
 在尝试中，我首先下载了ndk版本为r9c，但是出现错误。错误后面会说明
 后来我尝试下载了最新版的ndk64，版本为r10，但也出现了错误。错误后面会说明
@@ -29,7 +34,9 @@ tags: [OS X, Cocos2dx, Xcode, Android]
 ```bash
 /Applications/adt/android-ndk-r9d
 ```
-##下载JDK
+
+## 下载JDK
+
 首先检测JDK是否安装，打开命令行，输入
 ```bash
 java -version
@@ -41,13 +48,13 @@ Java(TM) SE Runtime Environment (build 1.8.0_05-b13)
 Java HotSpot(TM) 64-Bit Server VM (build 25.5-b02, mixed mode)
 ```
 这说明我已经安装了1.8.0_05版本的JDK
-##解压ADT-Bundle
+## 解压ADT-Bundle
 把之前下载的ADT-bundle的zip文件解压到适当的位置，我解压到了/Applications文件夹。路径为
 ```bash
 /Applications/adt-bundle-mac-x86_64-20140702
 ```
 打开adt-bundle下的eclipse文件夹，打开eclipse，尝试创立一个Hello World的Android程序。如果成功，说明Eclipse已经准备就绪。
-##配置NDK环境
+## 配置NDK环境
 ```bash
 sudo vim /etc/profile
 ```
@@ -56,14 +63,14 @@ sudo vim /etc/profile
 export NDK_ROOT = "/Applications/adt/android-ndk-r9d"
 ```
 重启终端才能生效。
-##创建HelloWorld项目
+## 创建HelloWorld项目
 进入Cocos2dx的文件夹，并调用cocos命令。
 ```
 cd /Applications/cocos2d-x-3.2/tools/cocos2d-console/bin/
 cocos new HelloWorld\_for\_Android -p com.maziang.hi -l cpp -d ~/Desktop/Work
 ```
 这样就建立了一个项目
-##编译为Android项目文件
+## 编译为Android项目文件
 执行proj.android目录下的build_native.py命令
 使用ndk版本为r9c的时候，出现如下错误:
 
@@ -129,7 +136,7 @@ long int tell();
 ```
 该链接错误解决起来比较困难，已经超出了普通的Cocos2D-x的学习范畴，所以在Cocos2D-x官方给出解决方案以前，不要使用r10的NDK。
 （PS:正式版中最新，2014年8月25日。）
-##导入项目到Eclipse
+## 导入项目到Eclipse
 在Eclipse中，选择File->import，然后导入Android程序Existing Android Code Into Workspace
 导入成功之后会有错误提示，这个时候还需要把一个lib文件夹导入到里面。
 最新版和旧版路径不一样，在3.2版本中，需要把Path\_to\_your\_demo/cocos2d/cocos/platform/android/java/src文件夹下的org文件夹导入进来，和已有的代码文件并列。

@@ -1,13 +1,14 @@
 title: Bootstrap Popover 点击外围区域自动关闭弹框
 date: 2015-10-25 14:22:52
-categories: ['学习笔记']
-description: Popover
-tags: [Bootstrap, Node.js]
+categories: ['技术指南']
+description: Popover是Bootstrap中的一个弹框小工具，它方便易用，只需要在网页中插入一点代码就可以。但是它的实现也比较机械，选项颇少，如果想要定制效果还比较困难，需要自己进修改。这里我就添加了一些代码，让Popover更加亲民。
+tags: [Bootstrap]
 ---
 
 # 效果图
 
 ![满血Popover效果图](http://i11.tietuku.com/11c3495f71995c33.gif)
+
 因为最近要做LibRadar的网页展示，所以需要表格来展示数据。但是对于每一个表项，它的Permission时长时短，没有办法在表格里显示，所以制作成了一个按钮，希望点击就可以出来一个弹出框，显示详细内容。
 我的网页是使用[Bootstrap](http://bootcss.com)做的，所以可以方便地借助bootstrap的popover控件。
 
@@ -15,7 +16,7 @@ tags: [Bootstrap, Node.js]
 
 # 基础Popover使用方法
 
-首先把需要popover效果的按钮加上class pop，再在属性里设置好data-original-title和data-content的内容。
+首先把需要Popover效果的按钮加上class pop，再在属性里设置好data-original-title和data-content的内容。
 举个例子如下：
 ```html
 <button rel="popover" data-content="弹出框内容" data-original-title="弹出框标题" class="pop">Click me</button>

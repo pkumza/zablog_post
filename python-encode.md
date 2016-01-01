@@ -1,4 +1,4 @@
-title: python编码与中文显示
+title: Python编码与中文显示
 description: Python的编码，python中文操作和显示。
 categories: 学习笔记
 tags: [Python]

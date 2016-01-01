@@ -1,5 +1,5 @@
 title: Python 字符串处理1
-description: Python的字符串处理。
+description: Python的字符串处理的一些知识。譬如，单引号和双引号的区别、字符串之前加上r的意义、加上u的意义，还有Python中切片的意义等等，简短易懂。
 categories: 学习笔记
 tags: [Python]
 date: 2015-02-17 17:40:21

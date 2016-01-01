@@ -1,6 +1,6 @@
 title: 'Drupal Commerce 模块使用指南2：产品'
 date: 2014-06-12 00:07:38
-categories: 技术指南
+categories: ['技术指南']
 tags: [Drupal, Commerce]
 ---
 #产品Products简介

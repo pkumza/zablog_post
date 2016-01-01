@@ -1,6 +1,6 @@
 title: 搭建电商网站实战1：安装与设置
 date: 2014-06-13 21:45:30
-categories: 技术指南
+categories: ['技术指南']
 tags: [Drupal]
 ---
 #安装

@@ -1,6 +1,6 @@
 title: Hexo自定义域名
 date: 2014-05-31 17:42:22
-categories: 学习笔记
+categories: ['技术指南']
 tags: [Hexo]
 ---
 废了很多的勁，还花了一点钱，终于在Godaddy上注册了一个域名，并且把自己的网站部署了上去。域名提供商使用了Godaddy，解析商使用了免费的DNSPOD。

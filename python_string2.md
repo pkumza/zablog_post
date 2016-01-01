@@ -1,5 +1,5 @@
 title: Python 字符串处理2
-description: Python的字符串处理。
+description: 字符串合并的时候有多重方法，但是在不同的应用场合，最好选择不同的方法。
 categories: 学习笔记
 tags: [Python]
 date: 2015-02-17 20:13:00

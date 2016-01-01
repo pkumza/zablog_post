@@ -1,6 +1,6 @@
 title: 'Drupal Commerce 模块使用指南1：简介和安装'
 date: 2014-06-11 22:53:48
-categories: 技术指南
+categories: ['技术指南']
 tags: [Drupal, Commerce]
 ---
 

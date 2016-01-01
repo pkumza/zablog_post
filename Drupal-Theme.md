@@ -1,6 +1,6 @@
 title: 'Drupal Theme 主题系统'
 date: 2014-06-22 13:48:48
-categories: 技术指南
+categories: ['技术指南']
 tags: [Drupal]
 description: Drupal的外观控制是最为灵活可定制的，但是这个系统复杂而且不够直观。本文会对Theme系统进行介绍。
 ---
@@ -13,7 +13,6 @@ Drupal采用了PHPTemplate这个主题引擎，来把这些显示技术结合起
 Drupal中，有很多默认的主题。
 在Drupal6的阶段，默认的主题一般是Garland主题，这是一个蓝色的，常见的主题。在Drupal7中，默认主题变为了Bartik，我觉得这个主题确实是比Garland要更好看一些。另外，系统默认还会安装一些其他的主题，比如seven、stark等等。
 主题的定制可以简单，可以复杂。下面先说一下最简单的小定制。
-<!--more-->
 ##最简单的小定制
 这里以定制默认主题Bartik为例。运行环境为Drupal7原版。
 登陆管理页面，管理-》外观-》Bartik设置

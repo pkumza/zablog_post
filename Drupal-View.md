@@ -1,6 +1,6 @@
 title: Drupal7 Views模块   Part I
 date: 2014-06-04 12:46:23
-categories: 技术指南
+categories: ['技术指南']
 tags: [Drupal]
 ---
 #简介

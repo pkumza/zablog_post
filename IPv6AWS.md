@@ -1,5 +1,6 @@
 title: 用TunnelBroker给AWS绑定IPv6
 date: 2015-11-23 14:44:52
+toc: true
 categories: ['技术指南']
 description: Hurricane Electric Tunnel on AWS. 在互联网高速发展的今天，IPv4已经渐渐不能适应现代的需求,亟需IPv6的普及。AWS是优秀的云服务，然而它的虚拟主机产品EC2却不支持IPv6，这给使用者带来了一些困难。这里，就是用Hurricane Electric的TunnelBroker为AWS提供一个IPv6转发接口。
 tags: [AWS, IPv6]

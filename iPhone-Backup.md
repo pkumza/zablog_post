@@ -1,7 +1,7 @@
 title: Mac下修改iTunes中iPhone的自动备份路径
-date: 2015-10-25 14:22:52
+date: 2014-12-8 14:22:52
 categories: ['技术指南']
-description: auto-backup for iPhone
+description: 对于设备的备份是个良好的习惯，但是备份文件非常庞大，对于只有250GB硬盘空间的我，直接存在硬盘里会占据很多空间。然而，iTunes并没有更改备份路径的选项，那么如何让iPhone的备份文件存储在移动硬盘中呢？请看本教程。
 tags: [OS X, iOS]
 ---
 

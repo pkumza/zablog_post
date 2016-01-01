@@ -1,6 +1,6 @@
 title: 再见本科
 date: 2014-06-19 15:34:46
-categories: 随笔
+categories: ['个人随笔']
 tags: []
 ---
 >毕业了，
